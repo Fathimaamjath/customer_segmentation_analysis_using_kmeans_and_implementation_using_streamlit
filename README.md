@@ -20,9 +20,26 @@ Step 1: Import necessary libraries
 
 For our project we need pandas,numpy for data analization and seaborn, matplotlib for data visualization.
 
-Step 2: Load the dataset and view the properties, characteristics of the dataset.
+Step 2: Load the dataset and view the properties, characteristics of the dataset. Create a dataset that contains the values of required features.
 
-Step 3: From sklearn library import cluster and create an empty list forstoring the values for wcss(within cluster sum of squares) 
+Step 3: From sklearn library import cluster and create an empty list for storing the values for wcss(within cluster sum of squares).
+
+Step 4: To determine the optimal number of clusters we are using elbow method. Elbow method is a plot between no:of clusters and wcss. The goal is to find the point at which increasing the number of clusters doesn't significantly reduce WCSS anymore, and this point is often referred to as the "elbow." With the help of kmeans library we find the values for k and wcss and based on these value plot the elbow graph.
+
+Step 5:Once the value for the cluster is fixed, we will predict the values for y which denotes in which class each customer belongs.
+This step is accomplished with the help of kmeans algorithm.
+
+Step 6: Plot the clusters which shows were each customer belongs along with their centroids.
+
+Step 7: Test the model with required feature values and find the cluster where it belongs.
+
+Step 8: Save the model using joblib library.
+
+Step 9: Open a .py file to deploy the model as a web application. Here we are using streamlit library. Add some code to develop features to your website like title, input button and output button to predict.
+
+Step 10: Run .py file in your prompt to view the website to perform the customer segmentation analysis.
+
+
 
 
 
