@@ -24,7 +24,7 @@ Step 2: Load the dataset and view the properties, characteristics of the dataset
 
 Step 3: From sklearn library import cluster and create an empty list for storing the values for wcss(within cluster sum of squares).
 
-Step 4: To determine the optimal number of clusters we are using elbow method. Elbow method is a plot between no:of clusters and wcss. The goal is to find the point at which increasing the number of clusters doesn't significantly reduce WCSS anymore, and this point is often referred to as the "elbow." With the help of kmeans library we find the values for k and wcss and based on these value plot the elbow graph.
+Step 4: To determine the optimal number of clusters we are using elbow method. Elbow method is a plot between no:of clusters and wcss. The goal is to find the point at which increasing the number of clusters doesn't significantly reduce WCSS anymore, and this point is often referred to as the "elbow." With the help of kmeans algorithm we find the values for k and wcss and based on these value plot the elbow graph.
 
 Step 5:Once the value for the cluster is fixed, we will predict the values for y which denotes in which class each customer belongs.
 This step is accomplished with the help of kmeans algorithm.
