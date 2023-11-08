@@ -13,3 +13,16 @@ In this dataset we can see every features are independent of each other. we don'
 
 Our aim is to group certain customers into a specific category, such that these group shares a common behaviour that helps us to make some plan of action.
 For achieving this we are using kmeans algorithm, so that at the end we will create a dependent variable with finite number of values which refers to the classes/group were each customer belongs.
+
+PROJECT IMPLEMENTATION:
+
+Step 1: Import necessary libraries 
+
+For our project we need pandas,numpy for data analization and seaborn, matplotlib for data visualization.
+
+Step 2: Load the dataset and view the properties, characteristics of the dataset.
+
+Step 3: From sklearn library import cluster and create an empty list forstoring the values for wcss(within cluster sum of squares) 
+
+
+
